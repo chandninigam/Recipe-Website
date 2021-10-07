@@ -1,0 +1,25 @@
+.header{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  background-color:rgb(235, 93, 5) ;
+  color: rgb(10, 7, 6);
+  .heading{
+    display:flex;
+    flex:1;
+    font-size:5vh;
+    margin-left: 2vh;
+  }
+  .container-list{
+    ul{
+      list-style-type: none;
+      display:flex;
+      text-align: center;
+      justify-content: flex-end;
+      font-size: 3vh;
+      li{
+        margin:0 2vh 0 2vh;
+      }
+    }
+  }
+}
