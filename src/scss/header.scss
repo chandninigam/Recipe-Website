@@ -1,24 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family');
 .header{
   display:flex;
   flex-direction: row;
-  align-items: center;
-  background-color:rgb(235, 93, 5) ;
+  background-color:rgb(245, 145, 82) ;
   color: rgb(10, 7, 6);
   .heading{
     display:flex;
+    align-items: center;
     flex:1;
     font-size:5vh;
     margin-left: 2vh;
+    font-family:'Roboto Slab', serif;;
   }
   .container-list{
     ul{
       list-style-type: none;
       display:flex;
-      text-align: center;
+      align-items: baseline;
       justify-content: flex-end;
       font-size: 3vh;
+      font-family:'Ubuntu', sans-serif;
       li{
-        margin:0 2vh 0 2vh;
+        margin:0 2vmax 0 2vmax;
       }
     }
   }
