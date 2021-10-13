@@ -1,9 +1,10 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+.vscode
 
-#static files
-.css
-.css.map
+# static files
+*.css
+*.css.map
  
 # dependencies
 /node_modules
