@@ -3,6 +3,7 @@
 .vscode
 
 # static files
+static
 *.css
 *.css.map
  
