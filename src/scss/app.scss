@@ -4,9 +4,8 @@
 }
 
 .container{
-  height: 100% !important;
+  height: 100vh !important;
   width: 100% !important;
-  // background-color: red;
   display: grid;
   grid-template-rows: auto 1fr auto;
 }
