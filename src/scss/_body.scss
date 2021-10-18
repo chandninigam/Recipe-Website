@@ -1,5 +1,15 @@
 .content{
   font-size: 2vh;
-  color:yellow;
-  background-color: blue;
+  // color:yellow;
+  // background-color: blue;
+  display: flex;
+  flex-direction: row;
+  .contentContainer{
+    flex:1;
+    background-color: aqua;
+  }
+  .imgContainer{
+    flex:1;
+    background-color: rgb(212, 212, 95);
+  }
 }
