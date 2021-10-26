@@ -1,4 +1,5 @@
 import React from 'react';
+import img from '../../Image/foodHome.jpg';
 export const Body = () => {
   return (
     <div className="content">
@@ -9,8 +10,9 @@ export const Body = () => {
       {/* <p>lorem chandni NIGAM</p> */}
       <div className="contentContainer">I am Food</div>
       <div className="imgContainer">
-        i am body
-        {/* <img src="../../Image/foodHome" alt="homeImg" /> */}
+        {/* {' '} */}
+        {/* i am body */}
+        <img src={img} alt="homeImg" className="imageHome" />
       </div>
     </div>
   );

@@ -1,15 +1,21 @@
 .content{
-  font-size: 2vh;
-  // color:yellow;
-  // background-color: blue;
+  background-color: yellow;
   display: flex;
   flex-direction: row;
   .contentContainer{
+    background-color: orange;
     flex:1;
-    background-color: aqua;
   }
   .imgContainer{
+    // background-color: burlywood;
+    display:flex;
     flex:1;
-    background-color: rgb(212, 212, 95);
+    justify-content: center;
+    place-items: center;
+    img{
+      height:50%;
+      width:50%;
+      border-radius: 25%;
+    }
   }
 }
