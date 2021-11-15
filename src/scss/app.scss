@@ -7,7 +7,8 @@
   height: 100vh !important;
   width: 100% !important;
   display: grid;
-  grid-template-rows: auto 1fr auto;
+  grid-template-rows: 1fr 8fr 1fr;
+  background-image: url(../Image/foodHome.jpg)
 }
 @import './header.scss';
 @import './body';
