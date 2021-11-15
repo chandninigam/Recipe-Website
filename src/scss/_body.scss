@@ -4,9 +4,10 @@
   // background-color: blue;
   display: flex;
   flex-direction: row;
+  color:white;
   .contentContainer{
     flex:1;
-    // background-color: aqua;
+    background-color: transparentize($color:rgba(102, 128, 105, 0.4), $amount: 0.2);
   }
   .imgContainer{
     flex:4;
