@@ -16,10 +16,12 @@ export const Body = () => {
           <li>Italian</li>
         </ul>
         <h2>Non-Vegetartian</h2>
-        <li>Chicken</li>
-        <li>Mutton</li>
-        <li>Fish</li>
-        <li>Egg</li>
+        <ul>
+          <li>Chicken</li>
+          <li>Mutton</li>
+          <li>Fish</li>
+          <li>Egg</li>
+        </ul>
       </div>
       <div className="imgContainer">
         i am body
