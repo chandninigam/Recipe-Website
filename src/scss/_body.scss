@@ -29,6 +29,44 @@
   }
   .imgContainer{
     flex:4;
-    // background-color: rgb(212, 212, 95);
+    display:flex;
+    justify-content: center;
+    margin:4vh 0 0 0;
+    .cardContainer{
+      background-color: white;
+      font-family:'Shippori Antique B1', sans-serif;
+      display: flex;
+      flex-direction: row;
+      width:60%;
+      color:black;
+      height:40%;
+      justify-content: center;
+      border-radius: 4vh;
+      border-color: black;
+      border-width: 2vh;
+      .cardContent{
+        display:flex;
+        flex-direction: column;
+        flex:4;
+        border-color: black;
+        border-right: 2vh;
+        .cardTitle{
+          font-size: 3vh;
+          display:flex;
+          justify-content: center;
+        }
+        .cardDesc{
+          font-size: 1.5vh;
+          margin:2vh 0 0 2vh;
+        }
+        // background-color: yellow;
+      }
+      .cardImg{
+        display: flex;
+        // background-color: pink;
+        flex:1;
+      }
+    }
+
   }
 }

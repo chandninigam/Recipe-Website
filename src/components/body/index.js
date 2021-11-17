@@ -1,4 +1,5 @@
 import React from 'react';
+import { Card } from './card';
 export const Body = () => {
   return (
     <div className="content">
@@ -24,8 +25,7 @@ export const Body = () => {
         </ul>
       </div>
       <div className="imgContainer">
-        i am body
-        {/* <img src="../../Image/foodHome" alt="homeImg" /> */}
+        <Card />
       </div>
     </div>
   );
