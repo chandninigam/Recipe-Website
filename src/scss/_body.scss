@@ -4,9 +4,28 @@
   // background-color: blue;
   display: flex;
   flex-direction: row;
+  color:white;
   .contentContainer{
     flex:1;
-    // background-color: aqua;
+    background-color: transparentize($color:rgba(102, 128, 105, 0.4), $amount: 0.2);
+    h2{
+      font-family:'Shippori Antique B1', sans-serif;
+      margin:2vh 2vh 2vh 2vh;
+      font-size: 4vh;
+      color:rgb(224, 214, 72);
+      text-align:center;
+    }
+    ul{
+      margin:3vh 2vh 2vh 2vh;
+      font-family:'Shippori Antique B1', sans-serif;
+      list-style: none;
+      font-size:3vh;
+      text-align: center;
+      li{
+        margin:2vh 2vh 2vh 4vh;
+      }
+    }
+    
   }
   .imgContainer{
     flex:4;
