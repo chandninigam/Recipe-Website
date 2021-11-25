@@ -1,4 +1,5 @@
 // import react from "react";
+import img from '../../Image/foodHome.jpg';
 export const Card = () => {
   return (
     <div className="cardContainer">
@@ -10,7 +11,7 @@ export const Card = () => {
         </div>
       </div>
       <div className="cardImg">
-        <img src="../Image/foodHome.jpg" alt="img" />
+        <img src={img} alt="img" />
       </div>
     </div>
   );
