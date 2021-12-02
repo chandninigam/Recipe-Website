@@ -2,12 +2,17 @@
   margin: 0;
   padding: 0;
 }
+body{
+  height: 100vh;
+  width:100vw;
+}
 
 .container{
   height: 100vh !important;
   width: 100% !important;
   display: grid;
   grid-template-rows: 1fr 8fr 1fr;
+  overflow: hidden;
   background-image: url(../Image/foodHome.jpg)
 }
 @import './header.scss';
