@@ -24,7 +24,11 @@ export const Body = () => {
           <li>Egg</li>
         </ul>
       </div>
-      <div className="imgContainer">
+      <div className="mainContentContainer">
+        <Card />
+        <Card />
+        <Card />
+        <Card />
         <Card />
       </div>
     </div>
