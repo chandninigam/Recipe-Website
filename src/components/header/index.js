@@ -8,7 +8,7 @@ export const Header = () => {
         <div className="container-list">
           <ul className="list">
             <li>Home</li>
-            <li>Recipes</li>
+            <li>List of Recipes</li>
             <li>About</li>
             <li>
               <span class="material-icons">search</span>

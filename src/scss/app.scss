@@ -13,7 +13,8 @@ body{
   display: grid;
   grid-template-rows: 1fr 8fr 1fr;
   overflow: hidden;
-  background-image: url(../Image/foodHome.jpg)
+  background-image:linear-gradient(rgba(248, 193, 193, 0.719), rgba(255,255,255,.8)), url(../Image/foodHome.jpg);
+  // opacity:0.1;
 }
 @import './header.scss';
 @import './body';
