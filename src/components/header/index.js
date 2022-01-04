@@ -4,7 +4,7 @@ export const Header = () => {
   return (
     <div class="navbar">
       <div className="header">
-        <div className="heading">Tasty Food</div>
+        <div className="heading">Dressing Recipe</div>
         <div className="container-list">
           <ul className="list">
             <li>Home</li>
