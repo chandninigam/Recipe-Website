@@ -3,14 +3,12 @@ import React from 'react';
 export const Header = () => {
   function onClickMenu() {
     console.log('i am clicked');
-    const menu = document.querySelector(
-      'div.container-list .menuOuterContainer'
-    );
-    console.log(menu);
-    const divMenuContainer = document.createElement('div');
-    divMenuContainer.className = 'divMenuContainer';
-    divMenuContainer.innerHTML = 'i am menu clicked Container';
-    menu.appendChild(divMenuContainer);
+    const ulList = document.querySelector('ul');
+    if (ulList.style.display === 'none') {
+      ulList.style.display = 'flex !important';
+    } else {
+      ulList.style.display = 'none !important';
+    }
   }
   return (
     <div class="navbar">

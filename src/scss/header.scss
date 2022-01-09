@@ -58,7 +58,10 @@ li:hover{
 //   }
 // }
 @media screen and (max-width: 768px) {
+ 
    ul{
+    display:none ;
+    // visibility: hidden;
     position: fixed;
     top:80px;
     // margin-top: 0 !important;
@@ -70,7 +73,6 @@ li:hover{
     left:0;
     color:orange;
     background-color: transparentize($color: rgba(255, 0, 0, 0.4), $amount: 0.2);
-    display:flex;
     flex-direction: column;
     // border-radius: 1vh;
     border-bottom-left-radius:2vh ;
@@ -78,6 +80,7 @@ li:hover{
   li{
     justify-content: flex-start !important;
     margin: 1vh !important;
+    border-bottom-color:rgb(29, 28, 28) !important;
   }
  .container-list span{
     display:flex !important;
