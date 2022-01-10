@@ -3,11 +3,14 @@ import React from 'react';
 export const Header = () => {
   function onClickMenu() {
     console.log('i am clicked');
-    const ulList = document.querySelector('ul');
-    if (ulList.style.display === 'none') {
-      ulList.style.display = 'flex !important';
+    const menuList = document.querySelector('.menu');
+    // ulList.forEach((each) => {
+    if (menuList.style.display === 'none') {
+      menuList.style.display = 'flex';
+      // menuList.classList.add('active');
     } else {
-      ulList.style.display = 'none !important';
+      menuList.style.display = 'none';
+      // menuList.classList.remove('active');
     }
   }
   return (
@@ -15,14 +18,16 @@ export const Header = () => {
       <div className="header">
         <div className="heading">Dressing Recipe</div>
         <div className="container-list">
-          <ul className="list">
-            <li>Home</li>
-            <li>List of Recipes</li>
-            <li>About</li>
-            <li>
-              <span className="material-icons">search</span>
-            </li>
-          </ul>
+          <div className="menu">
+            <ul className="list">
+              <li>Home</li>
+              <li>List of Recipes</li>
+              <li>About</li>
+              <li>
+                <span className="material-icons">search</span>
+              </li>
+            </ul>
+          </div>
           <div className="menuOuterContainer">
             <span className="material-icons menu" onClick={onClickMenu}>
               menu
