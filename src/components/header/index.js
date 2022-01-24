@@ -6,11 +6,9 @@ export const Header = () => {
     const menuList = document.querySelector('.menu');
     // ulList.forEach((each) => {
     if (menuList.style.display === 'none') {
-      menuList.style.display = 'flex';
-      // menuList.classList.add('active');
+      menuList.classList.toggle('active');
     } else {
-      menuList.style.display = 'none';
-      // menuList.classList.remove('active');
+      menuList.classList.toggle('active');
     }
   }
   return (
