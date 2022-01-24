@@ -1,4 +1,4 @@
-// import react from "react";
+import React from "react";
 import img from '../../Image/foodHome.jpg';
 export const Card = ({ title, mainContent }) => {
   return (

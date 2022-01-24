@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 // import "./App.css";
+import React from 'react';
 import './scss/app.scss';
 import { Header } from './components/header';
 import { Body } from './components/body';
