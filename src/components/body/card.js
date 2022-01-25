@@ -1,5 +1,5 @@
 import React from "react";
-import img from '../../Image/foodHome.jpg';
+import img from '../../assert/foodHome.jpg';
 export const Card = ({ title, mainContent }) => {
   return (
     <div className="cardContainer">
