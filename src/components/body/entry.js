@@ -9,5 +9,5 @@ export const EntryOfBody = () => {
 
     <div className='homeContent'>Excellence taste in Every Bite</div>
     </div>
-  </div>;
+  </div>
 };

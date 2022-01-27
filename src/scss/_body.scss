@@ -6,13 +6,34 @@
   .entryOfBody{
     height:100%;
     width:100%;
-    overflow-y: auto;
+    // overflow-y: auto;
+    background-image:linear-gradient(rgba(53, 51, 51, 0.719), rgba(255,255,255,.2)), url(../assert/Food.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
     color:white;
     display: flex;
     justify-content: center;
     align-items: center;
-    p{
-      font-size: 10vh;
+    .homeContentConatiner{
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .homeLogo{
+        height:30%;
+        width:20%;
+        margin-bottom: 6vmax;
+        img{
+          height: 100%;
+          width: 100%;
+          }
+      }
+      .homeContent{
+        font-size: 5vmax;
+        color: rgb(237, 84, 52);
+      }
     }
   }
   .mainContentContainer{
