@@ -5,6 +5,7 @@
 body{
   height: 100vh;
   width:100vw;
+  // background-color: black;
 }
 
 .container{
@@ -13,7 +14,10 @@ body{
   display: grid;
   grid-template-rows: 1fr 8fr 1fr;
   overflow: hidden;
-  background-image:linear-gradient(rgba(248, 193, 193, 0.719), rgba(255,255,255,.8)), url(../Image/foodHome.jpg);
+  background-color: black;
+  // background-image:linear-gradient(rgba(53, 51, 51, 0.719), rgba(255,255,255,.2)), url(../assert/Food.jpg);
+  // background-repeat: no-repeat;
+  // background-size:cover;
   // opacity:0.1;
 }
 @import './header.scss';
